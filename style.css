@@ -1,0 +1,171 @@
+*{
+   box-sizing: border-box;
+}
+html, body {
+   width: auto!important; 
+   overflow-x: hidden!important
+}
+.container {
+   position: relative;
+   text-align: center;
+   color: white;
+  }
+ .bcontent {
+   margin-top: 10px;
+}
+#fixedbutton{
+   border-radius: 100px;
+}
+/* #fix1{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+} */
+
+.fixed {
+    background-image: url(img/event4.jpeg);
+    object-fit: cover;
+    height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ }
+/* figure {
+    height: 300px;
+    width: 100vw;
+    background: #2a9b8c;
+    overflow: hidden;
+ } */
+ .fixed2{
+    background-image: url(img/bg1.jpeg);
+    object-fit: cover;
+    height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ opacity: 0.4;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ }
+ .fix{
+    height: 500px;
+    width: 100vw;
+    background: #2a9b8c;
+    overflow: hidden;
+ }
+#fixsection{
+   object-fit: cover;
+    height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ text-align: center;
+ overflow: hidden;
+}
+#client-testimonial-carousel {min-height: 200px;}
+
+.margin-ll{
+   display: flex;
+   justify-content: center;
+}
+.margin-ll:hover{
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   animation-name: example;
+   animation-duration: 0.25s;
+   border-left: 8px solid rgb(64, 122, 230);
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#marggin{
+   display: flex;
+   justify-content: center;
+}
+.bg-green22{
+   background-color: #0ea195;
+}
+.navbar-fixed-top.scrolled {
+   background-color: #0ea195 !important;
+   transition: background-color 200ms linear;
+ }
+ .inner-cont:hover{
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   animation-name: example;
+   animation-duration: 0.25s;
+   border: 2px solid rgb(64, 122, 230);
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.newsletter-button{
+   border-radius: 100px;
+   width: 450px;
+   height: 50px;
+   margin-top: 20px;
+}
+#icolor{
+   color: yellowgreen;
+   margin-top: 20px;
+}
+#icolor:hover{
+   color: chocolate;
+}
+#btntop {
+   margin-left: 350px;
+   border-radius: 100px;
+   width: 115px;
+   height: 50px;
+   text-align: center;
+   word-spacing: 1px;
+}
+#btntop:hover{
+   background-color: orange;
+}
+i{
+   margin-left: 10px;
+}
+i:hover{
+   color: aliceblue;
+   cursor: pointer;
+}
+#course{
+   margin-left: 10px;
+   border-radius: 100px;
+}
+#course:hover{
+   background-color: orange;
+}
+#course2{
+   margin-left: 10px;
+   border-radius: 100px;
+}
+#course2:hover {
+   background-color: #60a695;
+}
+#radius-image{
+   border-radius: 0px 0px 100px 100px;
+   margin: 0 auto;
+   display: flex;
+}
+#ouruniv11{
+   background-color: #f5f5f5;
+}
+.carousel99 { 
+	background: url(img/bg2.jpeg);
+	margin: 0;
+   padding: 0;
+   background-attachment: fixed;
+}
+#client-testimonial-carousel {
+   min-height: 200px;
+}
+/*
+Main Image Background First One www2
+*/
+@media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+   [class*="www2"] {
+     width: 100%;
+   }
+ }
